@@ -61,9 +61,6 @@ export default function App() {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <button className="bg-[#FF7F1E] text-white px-8 py-4 rounded-2xl font-semibold shadow-lg hover:scale-105 transition">
-              Conhecer a Solução
-            </button>
 
             <button className="bg-[#12213D] text-white px-8 py-4 rounded-2xl font-semibold shadow-lg hover:scale-105 transition">
               Acessar o Sistema
@@ -88,12 +85,12 @@ export default function App() {
               <div className="space-y-4">
                 <div className="bg-white/10 rounded-2xl p-5">
                   <p className="opacity-70 text-sm">Famílias Atendidas</p>
-                  <h3 className="text-4xl font-black">248</h3>
+                  <h3 className="text-4xl font-black">15</h3>
                 </div>
 
                 <div className="bg-white/10 rounded-2xl p-5">
                   <p className="opacity-70 text-sm">Cestas Disponíveis</p>
-                  <h3 className="text-4xl font-black">512</h3>
+                  <h3 className="text-4xl font-black">23</h3>
                 </div>
 
                 <div className="bg-[#FF7F1E] rounded-2xl p-5">
@@ -102,7 +99,7 @@ export default function App() {
                   </p>
 
                   <p className="text-sm opacity-90">
-                    Controle em tempo real entre instituições.
+                    Controle em tempo real.
                   </p>
                 </div>
               </div>
@@ -197,7 +194,7 @@ export default function App() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              ["60+", "Paróquias Integráveis"],
+              ["1", "Paróquia Integrada"],
               ["100%", "Controle de Entradas e Saídas"],
               ["24/7", "Gestão Centralizada"],
             ].map((item, i) => (
