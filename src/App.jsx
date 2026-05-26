@@ -56,60 +56,25 @@ export default function App() {
           </h1>
 
           <p className="text-lg text-gray-700 mb-10 leading-relaxed">
-            Otimize a distribuição de cestas básicas na sua paróquia com o
-            sistema F.O.M.E. — Gestão ágil, segura e sem duplicidades.
+            Veja o sistema funcionando na prática. Gestão simples, rápida e segura para o controle e distribuição de cestas básicas.
           </p>
 
           <div className="flex flex-wrap gap-4">
 
-            <button className="bg-[#12213D] text-white px-8 py-4 rounded-2xl font-semibold shadow-lg hover:scale-105 transition">
-              Acessar o Sistema
-            </button>
           </div>
         </div>
 
         <div className="bg-white rounded-[3rem] p-5 shadow-2xl border border-black/5">
-          <div className="bg-[#12213D] rounded-[2.5rem] p-8 text-white min-h-[600px] flex flex-col justify-between">
-            <div>
-              <div className="flex justify-between items-center mb-12">
-                <div>
-                  <p className="opacity-70 text-sm">Projeto</p>
-                  <h2 className="text-3xl font-bold">F.O.M.E.</h2>
-                </div>
-
-                <div className="w-16 h-16 rounded-2xl bg-[#FF7F1E] flex items-center justify-center text-2xl">
-                  ❤
-                </div>
-              </div>
-
-              <div className="space-y-4">
-                <div className="bg-white/10 rounded-2xl p-5">
-                  <p className="opacity-70 text-sm">Famílias Atendidas</p>
-                  <h3 className="text-4xl font-black">15</h3>
-                </div>
-
-                <div className="bg-white/10 rounded-2xl p-5">
-                  <p className="opacity-70 text-sm">Cestas Disponíveis</p>
-                  <h3 className="text-4xl font-black">23</h3>
-                </div>
-
-                <div className="bg-[#FF7F1E] rounded-2xl p-5">
-                  <p className="font-bold mb-2">
-                    Distribuição segura e integrada
-                  </p>
-
-                  <p className="text-sm opacity-90">
-                    Controle em tempo real.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-3 gap-3 mt-8">
-              <div className="bg-white/10 rounded-xl h-14"></div>
-              <div className="bg-white/10 rounded-xl h-14"></div>
-              <div className="bg-white/10 rounded-xl h-14"></div>
-            </div>
+          <div className="bg-[#12213D] rounded-[2.5rem] overflow-hidden min-h-[600px] flex items-center justify-center">
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover"
+            >
+              <source src="/fome-demo.webm" type="video/webm" />
+            </video>
           </div>
         </div>
       </section>
