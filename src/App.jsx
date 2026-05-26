@@ -65,7 +65,7 @@ export default function App() {
         </div>
 
         <div className="bg-white rounded-[3rem] p-5 shadow-2xl border border-black/5">
-          <div className="bg-[#12213D] rounded-[2.5rem] overflow-hidden min-h-[400px] flex items-center justify-center">
+          <div className="bg-[#12213D] rounded-[2.5rem] overflow-hidden min-h-[200px] flex items-center justify-center">
             <video
               autoPlay
               muted
