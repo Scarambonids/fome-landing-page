@@ -40,6 +40,7 @@ export default function App() {
             <a href="#problema">Problema</a>
             <a href="#solucao">Solução</a>
             <a href="#sobre">Sobre</a>
+            <a href="https://inventum-equip.vercel.app" target="_blank" rel="noopener noreferrer"> Integrantes </a>
           </nav>
         </div>
       </header>
